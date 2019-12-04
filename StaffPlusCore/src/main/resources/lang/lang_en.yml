@@ -1,6 +1,6 @@
 # Language: English
 # Status: COMPLETE
-# Contributor(s): Shortninja
+# Contributor(s): Shortninja and CasprHD
 
 # Leave ANY of these messages blank to disable them!
 # Placeholders are only available on messages that have them by default.
@@ -190,8 +190,8 @@ cps-finish-max: "&7%player% &bhas about &7%cps% &bCPS. &7(potentially autoclicki
 
 # Lines are separated by commas
 examine-food: "&bHealth: &7%health%, &bHunger: &7%hunger%"
-examine-ip: "&bIP address: &7%ipaddress%"
-examine-gamemode: "&bGamemode: &7%gamemode%"
+examine-ip: "&bIP Address: &7%ipaddress%"
+examine-gamemode: "&bGameMode: &7%gamemode%"
 examine-location: "&bLocation: &7%location%"
 examine-warn: "&bWarn this user"
 examine-freeze: "&bFreeze this user"
