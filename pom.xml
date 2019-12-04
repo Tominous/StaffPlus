@@ -72,9 +72,9 @@
             <id>mikeprim-repo</id>
             <url>http://repo.mikeprimm.com/</url>
         </repository>
-<!--       <repository>-->
-<!--            <id>qball-repo</id>-->
-<!--            <url>https://qball.frostalf.net</url>-->
-<!--        </repository>-->
+       <repository>
+            <id>qball-repo</id>
+            <url>https://qball.frostalf.net</url>
+        </repository>
     </repositories>
 </project>
