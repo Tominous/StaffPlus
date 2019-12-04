@@ -9,10 +9,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-//import net.shortninja.staffplus.player.attribute.SecurityHandler;
+import net.shortninja.staffplus.player.attribute.SecurityHandler;
 
 public class NodeUser {
-//    private SecurityHandler securityHandler = StaffPlus.get().securityHandler;
+    private SecurityHandler securityHandler = StaffPlus.get().securityHandler;
     private IUser user;
     private String prefix;
 
@@ -29,9 +29,9 @@ public class NodeUser {
         return user.getName();
     }
 
-//    public String password() {
-//        return securityHandler.getPassword(user.getUuid());
-//    }
+    public String password() {
+        return securityHandler.getPassword(user.getUuid());
+    }
 
     public short glassColor() {
         return user.getGlassColor();
