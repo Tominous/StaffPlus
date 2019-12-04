@@ -2,9 +2,9 @@ package net.shortninja.staffplus.server.hook;
 
 import org.bukkit.plugin.Plugin;
 
-public final class SuperVanishHook extends AbstractHook {
+public final class PremiumVanishHook extends AbstractHook {
 
-	public SuperVanishHook(Plugin plugin) {
+	public PremiumVanishHook(Plugin plugin) {
 		super(plugin);
 	}
 
