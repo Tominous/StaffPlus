@@ -27,8 +27,8 @@ blocked-mode-commands: "/example1, /example2, /example3"
 # The default color of glass for the side of GUIs. Just a cosmetic thing that staff members can change.
 glass-color: 0
 
-# The title of the glass color chooser GUI.
-glass-title: "&bChoose GUI glass color"
+# The title of the glass colour chooser GUI.
+glass-title: "&bChoose GUI glass colour"
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -113,7 +113,7 @@ vanish-module:
   tab-list: true
 
   # Whether or not list vanish users will be shown as "away" or "offline" in the staff list.
-  show-away: false
+  show-away: true
 
   # Whether or not user should be shown in command tab-complete suggestions.
   suggestions: false
@@ -143,12 +143,12 @@ chat-module:
   # Leave any of the lists below blank to disable them!
   blacklist-module:
     # Whether or not the blacklist will be enabled.
-    enabled: false
+    enabled: true
 
     # Whether or not messages that have censored words in them will be hoverable.
     # This means you will be able to hover over a chat message to see an uncensored message if you have the "permissions.blacklist" permission.
     # This may not work well with other chat plugins!
-    hoverable: false
+    hoverable: true
 
     # The character that will replace blocked word characters.
     character: "*"
@@ -194,10 +194,10 @@ tickets-module:
 
   # Whether or not additional responses to tickets will be sent to all staff members.
   # The initial ticket will be sent to all staff members no matter what.
-  global: false
+  global: true
 
   # Whether or not multiple staff members will be able to respond to a single ticket.
-  keep-open: false
+  keep-open: true
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -281,7 +281,7 @@ staff-mode:
   creative: false
 
   # Whether or not to a player to the location they were in before they toggled staff mode.
-  original-location: false
+  original-location: true
 
   # Whether or not staff mode will be enabled for staff when they login.
   enable-on-login: false
@@ -301,7 +301,7 @@ staff-mode:
   disable-on-world-change: false
 
   # Should other staff be able to see staff that are in mode while they are not in mode.
-  staff-see-staff-in-mode: false
+  staff-see-staff-in-mode: true
 
   ############################################################
   # +------------------------------------------------------+ #
@@ -356,7 +356,7 @@ staff-mode:
 
     # Whether or not actual pseudo-randomness will be used.
     # If set to false, "random" teleport will just cycle through players in order.
-    random: false
+    random: true
 
   ############################################################
   # +------------------------------------------------------+ #
@@ -510,7 +510,7 @@ staff-mode:
     # The title of the frozen prompt GUI.
     prompt-title: "&bFrozen"
 
-    logout-commands: "ban %player%"
+    logout-commands: "ban %player% Logged Out whilst freezen!"
 
   ############################################################
   # +------------------------------------------------------+ #
@@ -641,7 +641,7 @@ staff-mode:
     # The name of the module (just a reference point; can be anything really).
     StaticCommand:
       # Whether or not this module is enabled.
-      enabled: false
+      enabled: true
 
       # The type of module this is.
       # A static command is a command that is executed by the player and the same way every single time.
@@ -665,7 +665,7 @@ staff-mode:
     # The name of the module (just a reference point; can be anything really).
     DynamicCommand:
       # Whether or not this module is enabled.
-      enabled: false
+      enabled: true
 
       # The type of module this is.
       # A dynamic command will be executed by the player.
@@ -690,7 +690,7 @@ staff-mode:
     # The name of the module (just a reference point; can be anything really).
     ConsoleCommand:
       # Whether or not this module is enabled.
-      enabled: false
+      enabled: true
 
       # The type of module this is.
       # A console command will be executed by console with the player clicked as an argument.
@@ -715,7 +715,7 @@ staff-mode:
     # The name of the module (just a reference point; can be anything really).
     Item:
       # Whether or not this module is enabled.
-      enabled: false
+      enabled: true
 
       # The type of module this is.
       # An item is just an item; it does nothing but sit there.
